@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import photo from '../../profile.jpg'
 //import './Profile.css'
 
-class profilephoto extends Component {
+class Profilephoto extends Component {
     state = {}
     render() {
         return (
@@ -14,4 +14,4 @@ class profilephoto extends Component {
     }
 }
 
-export default profilephoto;
+export default Profilephoto;

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-class fullName extends Component {
+class FullName extends Component {
     state = {}
     render() {
         return (
          
-            <div style={{color: "white",maxHeight:'40px'}}>
+            <div style={{color: "black",maxHeight:'40px'}}>
           
           <h1 >mayssa choura</h1>
             </div>
@@ -12,4 +12,4 @@ class fullName extends Component {
     }
 }
 
-export default fullName;
+export default FullName;

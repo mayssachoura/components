@@ -1,15 +1,16 @@
 //import logo from './logo.svg';
 import './App.css';
-import fullName from './components/profile/fullName';
-import profilephoto from './components/profile/profilephoto';
-import adresse from './components/profile/adresse';
+import FullName from './components/profile/FullName';
+import Profilephoto from './components/profile/Profilephoto';
+import Adresse from './components/profile/Adresse';
 function App() {
   return (
     <div className="App">
-      <profilephoto />
+      {/* <h1>test</h1> */}
+      <Profilephoto />
           <div>
-      <fullName />
-      <adresse />
+      <FullName />
+      <Adresse />
     </div>
     </div>
   );
